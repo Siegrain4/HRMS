@@ -1,0 +1,20 @@
+/* Tambahkan warna latar belakang bergantian untuk baris tabel */
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Warna abu-abu */
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #ffffff; /* Warna putih */
+}
+
+/* Warna tombol Edit */
+.btn-warning {
+    background-color: #FFD700; /* Warna kuning */
+    color: #000; /* Warna teks hitam */
+}
+
+/* Warna tombol Delete */
+.btn-danger {
+    background-color: #FF0000; /* Warna merah */
+    color: #fff; /* Warna teks putih */
+}

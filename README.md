@@ -11,11 +11,6 @@ Buat .env dan rubah nama database dengan databse anda
 Generate key
 `php artisan key:generate`
 
-Install laravel ui (disini saya menggunakan bootstrap)
-`composer require laravel/ui`
-lalu
-`php artisan ui bootstrap --auth`
-
 lalu jalankan
 `npm install && npm run dev`
 untuk build semua file javascript dan css
